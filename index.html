@@ -1,5 +1,6 @@
 <html>
   <head>
+    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
     <title>Test Website 1.00</title>
 
     <!-- bootsrap -->
@@ -14,10 +15,14 @@
 
   </head>
   <body>
-    <div class="container-fluid" id="mainWrapper">
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col"></div>
-    </div>
+    <input maxlength="6" size="6" id="theSinValue" name="theSin" value="0" type="text">
+    <input maxlength="6" size="6" id="theDamageValue" name="theDamage" value="0" type="text">
+    <button id="converter" value="converter">
   </body>
 </html>
+
+<script>
+  $("#converter").click(function(){
+    $("#theSinValue").val("asasasa");
+  })
+</script>
